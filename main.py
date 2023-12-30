@@ -4,4 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"greeting": "Hello, Bitches!", "message": "Welcome to the Jungle from Local!"}
+    return {"userId": 160893, "title": "Welcome to the Jungle from Local!", "id": 1, "completed": false}
+
